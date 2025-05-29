@@ -82,12 +82,10 @@ document.addEventListener('DOMContentLoaded', function() {
             icon.classList.remove('far');
             icon.classList.add('fas');
             icon.style.color = 'var(--secondary-color)';
-            alert('Produto adicionado aos favoritos!');
         } else {
             icon.classList.remove('fas');
             icon.classList.add('far');
             icon.style.color = '';
-            alert('Produto removido dos favoritos!');
         }
     });
 
